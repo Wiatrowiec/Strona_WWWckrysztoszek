@@ -1,13 +1,24 @@
 body
 { 
-background-color: #333300
+background-color: #333300;
+margin: 0px 0px 0px 0px;
 }
 
 h1
 {
 	text-align: center;
-	}
+}
+
 	
+#pojemnik
+{
+height: 77%;
+width: 1040px;
+min-width: 1000px;
+margin: 0 auto auto auto;
+padding: 0 0 10px 15px;
+overflow: hidden;
+}
 #header
 {
 background-color: #666633;
@@ -21,7 +32,7 @@ background-color: #999966;
 float: left;
 text-align: center;
 width: 200px;
-height: 250px;
+height: 260px;
 }
 
 
@@ -29,6 +40,21 @@ height: 250px;
 {
 float:left;
 background-image: url(foto/tygrys.jpg);
-width: 680px;
-height: 350px;
+width: 750px;
+height: 596px;
+}
+#dolnabelka
+{
+border-top: #666b18 2px solid;
+border-bottom: #61574a 1px solid;
+background-color: #828252 ;
+width: 100%;
+clear: both;
+height: 60px;
+}
+
+#czolg
+{
+margin: 0 auto auto 50px;
+overflow: hidden;
 }
